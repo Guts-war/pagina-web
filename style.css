@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+.container > h1 {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.container h3 {
+    font-weight: 400;
+}
+
+
