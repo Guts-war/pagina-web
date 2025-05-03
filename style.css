@@ -1,13 +1,42 @@
 @charset "UTF-8";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+
 .container > h1 {
     font-family: monospace;
     font-weight: bold;
 }
 
+:root {
+    --cor-primaria: #110386;
+    --cor-secundaria: rgb(0, 48, 179);
+    --cor-destaque: #0e7060;
+    --font1:;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main {
+    margin: 40px auto;
+}
 .container h3 {
     font-weight: 400;
 }
 
+.card {
+    box-shadow: 4px 4px 4px 3px rgba(0, 132, 255, 0.301);
+    background-image: linear-gradient(to left, lightgray, white);
+}
+
+.card:hover {
+    box-shadow: 4px 4px 7px 1px rgba(0, 72, 139, 0.801);
+    transition-duration: 1s ;
+    background-image: linear-gradient(to left, white, lightgray);
+}
 
