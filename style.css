@@ -12,7 +12,7 @@
     --cor-primaria: #110386;
     --cor-secundaria: rgb(0, 48, 179);
     --cor-destaque: #0e7060;
-    --font1:;
+    --font1: 'Cascadia Code';
 }
 
 
@@ -27,6 +27,12 @@ main {
 }
 .container h3 {
     font-weight: 400;
+    
+}
+
+header > h2 {
+    font-family: var(--font1);
+    font-style: italic;
 }
 
 .card {
@@ -40,3 +46,10 @@ main {
     background-image: linear-gradient(to left, white, lightgray);
 }
 
+footer a {
+    color: var(--cor-primaria);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
